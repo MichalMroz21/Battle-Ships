@@ -1,4 +1,4 @@
-# Ships
+# Commands
 
 State commands - start with [state], they are provided until another [state].
 
