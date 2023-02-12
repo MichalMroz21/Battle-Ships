@@ -17,3 +17,31 @@ PLACE_SHIP y x D i C - Place the i-th ship of class C at (y,x) with direction D.
 SHOOT y, x - Shoots at (y,x), can only start if all the ships were placed.  <br/>
 PRINT x - Print the state as seen by the player. x = 1 advanced printing.  <br/>
 SPY i y x - Send a spy plane from i-th carrier at (y,x)  <br/>
+MOVE i C F - Move i-th ship of class C Forward
+
+ex.
+
+[state]\
+SET_FLEET A 0 1 0 0\
+SET_FLEET B 0 0 1 1\
+[state]\
+[playerA]\
+PLACE_SHIP 6 0 N 0 BAT\
+[playerA]\
+[playerB]\
+PLACE_SHIP 16 0 N 0 CRU\
+PLACE_SHIP 16 2 N 0 DES\
+[playerB]\
+[state]\
+PRINT 0\
+[state]\
+[playerA]\
+SHOOT 17 0\
+[playerA]\
+[playerB]\
+SHOOT 7 0\
+[playerB]\
+[state]\
+PRINT 0\
+SAVE\
+[state]
