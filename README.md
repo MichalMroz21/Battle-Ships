@@ -19,7 +19,7 @@ PRINT x - Print the state as seen by the player. x = 1 advanced printing.  <br/>
 SPY i y x - Send a spy plane from i-th carrier at (y,x)  <br/>
 MOVE i C F - Move i-th ship of class C Forward
 
-ex.
+# Example
 
 [state]\
 SET_FLEET A 0 1 0 0\
