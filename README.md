@@ -6,14 +6,14 @@ PRINT x - Print state of the game. Basic version for x = 0 <br/>
 SET_FLEET P a b c d - Number of ships (4 classes) from carrier to destroyer for player P  <br/>
 NEXT_PLAYER P - Sets next move for player P  <br/>
 BOARD_SIZE y x - Sets the board size  <br/>
-INIT_POSITION P y1 x1 y2 x2 - Player P can place ships in rectangle defined by left upper point - (y1, x1) and right lower point (y2, x2) 
-REEF y x - Sets reef at (y, x)
-EXTENDED_SHIPS - turn the extended logic of ships
-SAVE - saves state of the game
+INIT_POSITION P y1 x1 y2 x2 - Player P can place ships in rectangle defined by left upper point - (y1, x1) and right lower point (y2, x2)  <br/>
+REEF y x - Sets reef at (y, x)  <br/>
+EXTENDED_SHIPS - turn the extended logic of ships  <br/>
+SAVE - saves state of the game  <br/>
 
-Player commands - start with [playerX], where X is A or B, until another [playerX]
+Player commands - start with [playerX], where X is A or B, until another [playerX]  <br/>
 
-PLACE_SHIP y x D i C - Place the i-th ship of class C at (y,x) with direction D.
-SHOOT y, x - Shoots at (y,x), can only start if all the ships were placed.
-PRINT x - Print the state as seen by the player. x = 1 advanced printing.
-SPY i y x - Send a spy plane from i-th carrier at (y,x)
+PLACE_SHIP y x D i C - Place the i-th ship of class C at (y,x) with direction D.  <br/>
+SHOOT y, x - Shoots at (y,x), can only start if all the ships were placed.  <br/>
+PRINT x - Print the state as seen by the player. x = 1 advanced printing.  <br/>
+SPY i y x - Send a spy plane from i-th carrier at (y,x)  <br/>
