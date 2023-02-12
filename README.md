@@ -2,10 +2,10 @@
 
 State commands - start with [state], they are provided until another [state].
 
-PRINT x - Print state of the game. Basic version for x = 0
-SET_FLEET P a b c d - Number of ships (4 classes) from carrier to destroyer for player P
-NEXT_PLAYER P - Sets next move for player P
-BOARD_SIZE y x - Sets the board size
+PRINT x - Print state of the game. Basic version for x = 0 <br/>
+SET_FLEET P a b c d - Number of ships (4 classes) from carrier to destroyer for player P  <br/>
+NEXT_PLAYER P - Sets next move for player P  <br/>
+BOARD_SIZE y x - Sets the board size  <br/>
 INIT_POSITION P y1 x1 y2 x2 - Player P can place ships in rectangle defined by left upper point - (y1, x1) and right lower point (y2, x2) 
 REEF y x - Sets reef at (y, x)
 EXTENDED_SHIPS - turn the extended logic of ships
