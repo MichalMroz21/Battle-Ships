@@ -4,7 +4,7 @@ To play the game specific commands have to be written in console.
 
 The board has a default size of 10,21 (x, y), that can be changed using a command: BOARD_SIZE y x, with choosen y and x integer values.
 
-Ships are represented as ASCII characters in console, for example a ship of size 5 can look like this: +++++. '+' means a not broken part of the ship, where 'x' denotes a broken part of the ship.
+Ships are represented as ASCII characters in console, for example a ship of size 5 can look like this: +++++. '+' means a not broken part of the ship, where 'x' denotes a broken part of ship.
 
 Each player has exactly: 1 ship of size 5, 2 ships of size 4, 3 ships of size 3, 4 ships of size 2 by default, with names respectively: CARRIER, BATTLESHIP, CRUISER, DESTROYER. Default number of ships can be changed using: SET_FLEET P a1 a2 a3 a4, where P is a player (A or B) and a1, a2, a3, a4 correspond to number of ships, as written above in sequence.
 
