@@ -1,4 +1,4 @@
-This project is a simple Battleship game with some interesting rules.
+<p>This project is a simple Battleship game with some interesting rules.</p>
 
 To play the game specific commands have to be written to console.
 
@@ -16,7 +16,7 @@ To print the state of the game simply use PRINT 0.
 
 Commands related to the state of the game such as: SET_FLEET, PRINT have to be between [state]. Commands related to the move of a player have to be between [playerA] or [playerB]. 
 
-Described above is the BASIC logic of the game, here is an example on how it looks like in action:
+Described above is the <strong>BASIC</strong> logic of the game, here is an example on how it looks like in action:
 
 
 ![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225187785-bfb39af5-d437-4e24-b512-ff9b0d40dce3.PNG)
