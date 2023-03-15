@@ -6,7 +6,7 @@ The board has a default size of 10,21 (x, y), that can be changed using a comman
 
 Ships are represented as ASCII characters in console, for example a ship of size 5 can look like this: +++++. '+' means a not broken part of the ship, where 'x' denotes a broken part of ship. Player wins when all enemy's parts are destroyed. 
 
-Each player has exactly: 1 ship of size 5, 2 ships of size 4, 3 ships of size 3, 4 ships of size 2 by default, with names respectively: CARRIER, BATTLESHIP, CRUISER, DESTROYER. Default number of ships can be changed using: SET_FLEET P a1 a2 a3 a4, where P is a player (A or B) and a1, a2, a3, a4 correspond to number of ships, as written above in sequence.
+Each player has exactly: 1 ship of size 5, 2 ships of size 4, 3 ships of size 3, 4 ships of size 2, with names respectively: CARRIER, BATTLESHIP, CRUISER, DESTROYER. Default number of ships can be changed using: SET_FLEET P a1 a2 a3 a4, where P is a player (A or B) and a1, a2, a3, a4 correspond to number of ships, as written above in sequence.
 
 Players can place ships on the map. Player A can put ships in y = <0; 9> and player B in y = <11, 20>.
 To place a ship use: PLACE_SHIP y x D i C - Place a ship at (y, x), D - direction (N, S, E, W), i - denotes which ship will be placed, C - Class (CAR, BAT, CRU, DES).
