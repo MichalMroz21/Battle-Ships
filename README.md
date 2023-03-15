@@ -16,7 +16,8 @@ To print the state of the game simply use PRINT 0.
 
 Commands related to the state of the game such as: SET_FLEET, PRINT have to be between [state]. Commands related to the move of a player have to be between [playerA] or [playerB]. 
 
-Described above is just the **BASIC** logic of the game, here is an example on how it looks like in action:
+Described above is just the **BASIC** logic of the game. 
+<h3>Here is an example on how it looks like in action:</h3>
 
 
 ![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225187785-bfb39af5-d437-4e24-b512-ff9b0d40dce3.PNG) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
@@ -48,5 +49,5 @@ Each ship contains additional sections:
 
 Carriers can send spy planes, which reveal enemy ships in 3x3 square, sending spies counts as shooting. This can be done using: SPY i y x, where i denotes from which Carrier spies will be sent and (y, x) is the position.
 
-Simple example of extended logic: <br/> <br/> <br/>
+<h3>Simple example of extended logic:</h3> <br/> <br/>
 ![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225200582-710ee2e6-6ba0-472f-a96f-cb1822c3a631.PNG)
