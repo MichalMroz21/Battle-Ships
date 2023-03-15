@@ -49,6 +49,6 @@ Each ship contains additional sections:
 
 Carriers can send spy planes, which reveal enemy ships in 3x3 square, sending spies counts as shooting. This can be done using: SPY i y x, where i denotes from which Carrier spies will be sent and (y, x) is the position.
 
-<h3>Simple example of extended logic:</h3> <br/> <br/>
+<h3>Simple example of extended logic:</h3>
 
 ![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225200808-f1ac091f-3611-4cfa-9a87-c2512d6b5738.PNG)
