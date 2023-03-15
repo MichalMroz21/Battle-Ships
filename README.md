@@ -1,6 +1,6 @@
 <h3>This project is a simple Battleship game with some interesting rules.</h3>
 
-To play the game specific commands have to be written to console.
+To play the game specific commands have to be written in console.
 
 The board has a default size of 10,21 (x, y), that can be changed using a command: BOARD_SIZE y x, with choosen y and x integer values.
 
