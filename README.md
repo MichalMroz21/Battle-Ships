@@ -24,7 +24,7 @@ Described above is just the **BASIC** logic of the game, here is an example on h
 
 <h3>Advanced logic of the game</h3>
 
-To turn the extended logic type: EXTENDED_SHIPS.
+To turn the extended logic write: EXTENDED_SHIPS.
 
 Printing can be extended by using PRINT 1.
 
