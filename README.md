@@ -19,5 +19,5 @@ Commands related to the state of the game such as: SET_FLEET, PRINT have to be b
 Described above is the <strong>BASIC</strong> logic of the game, here is an example on how it looks like in action:
 
 
-![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225187785-bfb39af5-d437-4e24-b512-ff9b0d40dce3.PNG)
+![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225187785-bfb39af5-d437-4e24-b512-ff9b0d40dce3.PNG) &nbsp; &nbsp; &nbsp; &nbsp;
 ![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225188502-a580fdb6-5a39-4f70-8f9d-7d365a0c0cd7.PNG)
