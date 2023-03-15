@@ -1,4 +1,4 @@
-<p>This project is a simple Battleship game with some interesting rules.</p>
+<h3>This project is a simple Battleship game with some interesting rules.</h3>
 
 To play the game specific commands have to be written to console.
 
