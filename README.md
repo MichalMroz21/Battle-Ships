@@ -39,7 +39,7 @@ Ships can be placed, stated inside of [state] as a following command: SHIP P y x
 For example: SHIP A 9 4 W 0 BAT 1011.
 
 
-Print command can be now used inside of [playerX] and it prints the current state of the game as seen by the player X. '?' means an unknown field. Each ship has a radar and can send spies as described below.
+PRINT 0 command can be now used inside of [playerX] and it prints the current state of the game as seen by the player X. '?' means an unknown field. Each ship has a radar and can send spies as described below.
 
 Each ship contains additional sections:
   - Cannon - as a field after head, denoted as '!', cannon as every other part can be destroyed, if it's destroyed the ship cannot shoot. Additionaly, the range of the cannon is determined by the size of the ship, but for Carriers it is infinite.
