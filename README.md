@@ -1,47 +1,24 @@
-# Commands
+This project is a simple Battleship game with some interesting rules.
 
-State commands - start with [state], they are provided until another [state].
+To play the game specific commands have to be written to console.
 
-PRINT x - Print state of the game. Basic version for x = 0 <br/>
-SET_FLEET P a b c d - Number of ships (4 classes) from carrier to destroyer for player P  <br/>
-NEXT_PLAYER P - Sets next move for player P  <br/>
-BOARD_SIZE y x - Sets the board size  <br/>
-INIT_POSITION P y1 x1 y2 x2 - Player P can place ships in rectangle defined by left upper point - (y1, x1) and right lower point (y2, x2)  <br/>
-REEF y x - Sets reef at (y, x)  <br/>
-EXTENDED_SHIPS - turn the extended logic of ships  <br/>
-SAVE - saves state of the game  <br/>
+The board has a default size of 10,21 (x, y), that can be changed using a command: BOARD_SIZE y x, with choosen y and x integer values.
 
-Player commands - start with [playerX], where X is A or B, until another [playerX]  <br/>
+Ships are presented as ASCII characters in console, for example a ship of size 5 can look like this: +++++. '+' means a not broken part of the ship, where 'x' denotes a broken part of the ship.
 
-PLACE_SHIP y x D i C - Place the i-th ship of class C at (y,x) with direction D.  <br/>
-SHOOT y, x - Shoots at (y,x), can only start if all the ships were placed.  <br/>
-PRINT x - Print the state as seen by the player. x = 1 advanced printing.  <br/>
-SPY i y x - Send a spy plane from i-th carrier at (y,x)  <br/>
-MOVE i C F - Move i-th ship of class C Forward
+Each player has exactly: 1 ship of size 5, 2 ships of size 4, 3 ships of size 3, 4 ships of size 2 by default, with names respectively: CARRIER, BATTLESHIP, CRUISER, DESTROYER. Default number of ships can be changed using: SET_FLEET P a1 a2 a3 a4, where P is a player (A or B) and a1, a2, a3, a4 correspond to number of ships, as written above in sequence.
 
-# Example
+Players can place ships on the map. Player A can put ships in y = <0; 9> and player B in y = <11, 20>.
+To place a ship use: PLACE_SHIP y x D i C - Place a ship at (y, x), D - direction (N, S, E, W), i - denotes which ship will be placed, C - Class (CAR, BAT, CRU, DES).
 
-[state]\
-SET_FLEET A 0 1 0 0\
-SET_FLEET B 0 0 1 1\
-[state]\
-[playerA]\
-PLACE_SHIP 6 0 N 0 BAT\
-[playerA]\
-[playerB]\
-PLACE_SHIP 16 0 N 0 CRU\
-PLACE_SHIP 16 2 N 0 DES\
-[playerB]\
-[state]\
-PRINT 0\
-[state]\
-[playerA]\
-SHOOT 17 0\
-[playerA]\
-[playerB]\
-SHOOT 7 0\
-[playerB]\
-[state]\
-PRINT 0\
-SAVE\
-[state]
+Players can shoot at enemy's ships using command: SHOOT y x. It can be done once per move. 
+To print the state of the game simply use PRINT 0.
+
+Commands related to the state of the game such as: SET_FLEET, PRINT have to be between [state]. Commands related to the move of a player have to be between [playerA] or [playerB]. 
+
+Described above is the BASIC logic of the game, here is an example on how it looks:
+
+After these commands:
+
+
+![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225187785-bfb39af5-d437-4e24-b512-ff9b0d40dce3.PNG)
