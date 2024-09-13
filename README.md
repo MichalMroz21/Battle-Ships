@@ -1,4 +1,12 @@
-<h3>This project is a simple Battleship game with some interesting rules.</h3>
+# Battle-Ships
+
+Simple Battleship console command-based game with some interesting rules
+
+## Technologies
+
+<img src="https://github.com/user-attachments/assets/c3f48f8a-fa23-4b64-aff3-ce034642a0e2" alt="drawing" width="75"/>
+
+## Demo
 
 To play the game specific commands have to be written in console.
 
@@ -18,7 +26,6 @@ Commands related to the state of the game such as: SET_FLEET, PRINT have to be b
 
 Described above is just the **BASIC** logic of the game. 
 <h3>Here is an example on how it looks like in action:</h3>
-
 
 ![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225187785-bfb39af5-d437-4e24-b512-ff9b0d40dce3.PNG) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 ![Przechwytywanie](https://user-images.githubusercontent.com/125133223/225188502-a580fdb6-5a39-4f70-8f9d-7d365a0c0cd7.PNG)
